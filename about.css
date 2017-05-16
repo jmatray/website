@@ -1,0 +1,55 @@
+html, body {
+    max-width: 150%;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.navbar {
+	background-color: white;
+	border: 0px solid transparent;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	justify-content: center;
+ 	text-shadow: 2px 2px silver;
+ 	}
+h2{
+	padding-top:-30px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+span {
+	font-family: 'Abel', sans-serif;
+	font-style: italic;
+}
+blockquote {
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 
+		inset 0 2px 0 rgb(110, 38, 53), 
+		-2px -2px 25px rgb(110, 38, 53);
+}
+.footer {
+	margin-top: -30px;	
+		background-color: rgb(110, 38, 53);
+	padding-left: 20%;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.dropdown {
+	margin-left: 300px;
+}
+#email {
+	color: silver;
+	text-shadow: .7px .7px 1px black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 2% 2% ;
+}

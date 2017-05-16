@@ -13,7 +13,7 @@ html, body {
 	font-size: 500%;
 	text-shadow: 2px 2px 5px black;
 	font-family: 'BioRhyme', serif;
-	padding-top: 50px;
+	padding-top: 70px;
 }
 
 .first {
@@ -34,6 +34,17 @@ html, body {
 #about-the-poet, #baki-divan, #goals{
 	display: flex;
 	justify-content: center;
+}
+
+h2{
+	padding-top:-30px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+p {
+font-family: 'Slabo 27px', serif;
+
 }
 
 .second {
@@ -61,4 +72,12 @@ html, body {
 
 .dropdown {
 	margin-left: 300px;
+}
+#email {
+	color: silver;
+	text-shadow: .7px .7px 1px black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 2% 2% ;
 }

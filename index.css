@@ -13,7 +13,7 @@ html, body {
 	font-size: 500%;
 	text-shadow: 2px 2px 5px black;
 	font-family: 'BioRhyme', serif;
-	padding-top: 50px;
+	padding-top: 70px;
 }
 
 .first {
@@ -36,6 +36,17 @@ html, body {
 	justify-content: center;
 }
 
+h2{
+	padding-top:-30px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+p {
+font-family: 'Slabo 27px', serif;
+
+}
+
 .second {
 	margin-top: -30px;
 	background-color: rgba(244, 206, 214,.9);
@@ -52,8 +63,8 @@ html, body {
 
 
 .footer {
-	margin-top: -30px;	
-		background-color: rgb(110, 38, 53);
+	margin-top: -60px;	
+	background-color: rgb(110, 38, 53);
 	padding-left: 20%;
 	padding-bottom: 30px;
 	padding-top: 20px;
@@ -62,3 +73,13 @@ html, body {
 .dropdown {
 	margin-left: 300px;
 }
+
+#email {
+	color: silver;
+	text-shadow: .7px .7px 1px black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 2% 2% ;
+}
+
