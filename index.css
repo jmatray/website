@@ -4,6 +4,9 @@ html, body {
     padding-top: 20px;
     min-height:100%;position:relative;
 }
+a {
+text-decoration: none;
+}
 
 #background-image {
 	background: url("img/1.jpg") no-repeat;
@@ -106,5 +109,5 @@ font-family: 'Slabo 27px', serif;
 }
 
 .section-hover {
-	box-shadow: -3px 54px 300px 70px rgb(10,10,10);
+	box-shadow: -3px 54px 100px 30px rgb(10,10,10);
 }

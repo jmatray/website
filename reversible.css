@@ -1,0 +1,86 @@
+html, body {
+    max-width: 150%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    min-height:100%;position:relative;
+}
+.navbar {
+	background-color: white;
+	border: 0px solid transparent;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	text-shadow: 2px 2px silver;
+	font-size: 40px;
+	margin-bottom: 5%;
+}
+hr{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.first-link {
+	color: black;
+	font-family: 'Slabo 27px', serif;
+	font-size: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: rgba(244, 206, 214,.9);
+	padding: 10px 1px 10px 0px;
+	border-bottom: 5px outset rgba(0,0,0,0.2);
+	border-radius: 0px;
+}
+span {
+	font-family: 'Abel', sans-serif;
+	font-style: italic;
+}
+
+blockquote {
+	padding: 10px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 
+		inset 0 2px 0 rgb(110, 38, 53), 
+		-2px -2px 25px rgb(110, 38, 53);
+		margin-top: 5%;
+}
+
+.right-adjust{
+	margin-right: 50px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.footer {
+	background-color: rgb(110, 38, 53);
+	padding-left: 20%;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.dropdown {
+	margin-left: 300px;
+}
+
+.link {
+	background-color: rgba(150, 38, 53,.8);
+	transition: all 0.2s linear;
+	border-left:5px solid gray;
+	border-bottom: 5px solid gray;
+}
+
+#email {
+	color: silver;
+	text-shadow: .7px .7px 1px black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 2% 2% ;
+}
